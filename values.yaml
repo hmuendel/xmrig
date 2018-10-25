@@ -15,26 +15,14 @@ resources:
 args:
   - "--url=pool.monero.hashvault.pro:3333"
   - "--user=48PoncCgLShDQCRZEjEzdLff8BUHXWUKVUtSZcx8UNrGNMY9RjpVi5L7MJhfr1C726UciGs1kPWt7JZfR7aZR8phKDtrwxy"
-  - "--pass=$(MY_POD_NAME):hans@muendelein.me"
+  - "--pass=$(MY_POD_NAME):someone-used-the-default-wallet"
   - "-k"  
   - "--url=pool.supportxmr.com:3333"
   - "--user=48PoncCgLShDQCRZEjEzdLff8BUHXWUKVUtSZcx8UNrGNMY9RjpVi5L7MJhfr1C726UciGs1kPWt7JZfR7aZR8phKDtrwxy"
-  - --pass=$(MY_POD_NAME):hans@muendelein.me
+  - "--pass=$(MY_POD_NAME):someone-used-the-default-wallet"
   - "-k"
   - "--donate-level=1"
   - "--max-cpu-usage=100"
   - "--cpu-priority 4"
-
-
-  #   - --max-cpu-usage 100
-  # - -l /var/log/miner 
-  # - --donate-level 1 
-  # - --api-port 3333 
-  # - --cpu-priority 4
-  # - -o pool.supportxmr.com:3333 
-  # - -u 48PoncCgLShDQCRZEjEzdLff8BUHXWUKVUtSZcx8UNrGNMY9RjpVi5L7MJhfr1C726UciGs1kPWt7JZfR7aZR8phKDtrwxy 
-  # - -p k8s:hans@muendelein.me
-  # - -k    
-
 
 
